@@ -84,7 +84,7 @@ yarn add redux-devtools --dev
 
 ## 参照
 
-[React.js&Next.js超入門](https://www.amazon.co.jp/React-js-Next-js%E8%B6%85%E5%85%A5%E9%96%80-%E6%8E%8C%E7%94%B0-%E6%B4%A5%E8%80%B6%E4%B9%83/dp/4798056928)
+[React.js&Next.js超入門 Section4-1](https://www.amazon.co.jp/React-js-Next-js%E8%B6%85%E5%85%A5%E9%96%80-%E6%8E%8C%E7%94%B0-%E6%B4%A5%E8%80%B6%E4%B9%83/dp/4798056928)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
