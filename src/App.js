@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
 
-function mappingState(state) {
-  return state;
-}
-
 class App extends Component {
 
   constructor(props) {
@@ -38,7 +34,7 @@ class Message extends Component {
     );
   }
 }
-Message = connect(mappingState)(Message);
+Message = connect((state)=>state)(Message);
 
 class Button extends Component {
   style = {
@@ -55,6 +51,8 @@ class Button extends Component {
   doAction(e) {
     if (e.shiftKey) {
       this.props.dispatch({ type: 'DECREMENT' });
+    } else if (e.ctrlKey) {
+      this.props.dispatch({ type: 'RESET' });
     } else {
       this.props.dispatch({ type: 'INCREMENT' });
     }
